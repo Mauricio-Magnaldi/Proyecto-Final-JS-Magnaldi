@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "nombre": "Plasticola brillante", 
+        "descripcion": "De 38 gramos, con brillo y color verde oliva.",
+        "precio": 389,
+        "cantidad_disponible": 14,
+        "imagen": "https://i.ibb.co/BcRMHRk/Plasticola-brillante.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Cartulina",  
+        "descripcion": "Marca luma de variados colores y medida de 45 cm x 63 cm.",
+        "precio": 144,
+        "cantidad_disponible": 8,
+        "imagen": "https://i.ibb.co/L8nzvCt/Cartulina.png"
+    },
+    {
+        "id": 3,
+        "nombre": "Resaltador",
+        "descripcion": "Marca Filgo Lighter verde.",
+        "precio": 255,
+        "cantidad_disponible": 45,
+        "imagen": "https://i.ibb.co/Fn24p6N/Resaltador.png"
+    },
+    {
+        "id": 4,
+        "nombre": "Carpeta A4", 
+        "descripcion": "Marca Lama tapa transparente.",
+        "precio": 355,
+        "cantidad_disponible": 0,
+        "imagen": "https://i.ibb.co/YyYJMZV/Carpeta-A4.png"
+    },
+    {
+        "id": 5,
+        "nombre": "Plastilina", 
+        "descripcion": "Marca Maped 12 colores surtidos.",
+        "precio": 920,
+        "cantidad_disponible": 10,
+        "imagen": "https://i.ibb.co/rm5VVMN/Plastilina.png"
+    },
+    {
+        "id": 6,
+        "nombre": "Abrochadora", 
+        "descripcion": "Marca Maped Mini irrompible.",
+        "precio": 1343,
+        "cantidad_disponible": 4, 
+        "imagen": "https://i.ibb.co/kQ81g58/Abrochadora.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Lápices de colores",  
+        "descripcion": "Marca Filgo conteniendo 12 unidades de excelente grafito.",
+        "precio": 1892,
+        "cantidad_disponible": 7,
+        "imagen": "https://i.ibb.co/TcGwkCB/L-pices-de-colores.png"
+    },
+    {
+        "id": 8,
+        "nombre": "Acrílico 111",   
+        "descripcion": "Marca Eterna de 50 ml color oro negro.",
+        "precio": 482,
+        "cantidad_disponible": 8,
+        "imagen": "https://i.ibb.co/VWC6mmm/Acr-lico-111.png"
+    },
+    {
+        "id": 9,
+        "nombre": "Acrílico 093",
+        "descripcion": "Marca Eterna de 50 ml color gris perla.",
+        "precio": 482,
+        "cantidad_disponible": 0,
+        "imagen": "https://i.ibb.co/nbXCp1Q/Acr-lico-093.png"
+    },
+    {
+        "id": 10,
+        "nombre": "Acrílico 084", 
+        "descripcion": "Marca Eterna de 50 ml color tierra siena.",
+        "precio": 482,
+        "cantidad_disponible": 17,
+        "imagen": "https://i.ibb.co/60kPFwL/Acr-lico-084.png"
+    },
+    {
+        "id": 11,
+        "nombre": "Lápiz", 
+        "descripcion": "Marca BIC con goma de regalo.",
+        "precio": 199,
+        "cantidad_disponible": 14,
+        "imagen": "https://i.ibb.co/F4hXFkx/L-piz.png"
+    },
+    {
+        "id": 12,
+        "nombre": "Repuesto de dibujo", 
+        "descripcion": "Marca Lima, ideal para calcar.",
+        "precio": 342,
+        "cantidad_disponible": 0,
+        "imagen": "https://i.ibb.co/Sc9p1pb/Repuesto-de-dibujo.jpg"
+    },
+    {
+        "id": 13,
+        "nombre": "Acuarela", 
+        "descripcion": "Marca Filgo con estuche de 12 unidades.",
+        "precio": 844,
+        "cantidad_disponible": 9,
+        "imagen": "https://i.ibb.co/FhRCDSr/Acuarela.jpg"
+    },
+    {
+        "id": 14,
+        "nombre": "Cartuchera", 
+        "descripcion": "Marca Filgo color pastel.",
+        "precio": 4978,
+        "cantidad_disponible": 5,
+        "imagen": "https://i.ibb.co/2W2xg5s/Cartuchera.jpg"
+    },
+    {
+        "id": 15,
+        "nombre": "Lápices de colores borrables", 
+        "descripcion": "Marca Maped borrable muy fácilmente",
+        "precio": 1720,
+        "cantidad_disponible": 0,
+        "imagen": "https://i.ibb.co/cQBZXQ5/Lapices-de-colores-borrables.png"
+    },
+    {
+        "id": 16,
+        "nombre": "Plasticola opaca", 
+        "descripcion": "Marca FLuo de color violeta por 40 gramos.",
+        "precio": 389,
+        "cantidad_disponible": 0,
+        "imagen": "https://i.ibb.co/LdqpXCw/Plasticola-opaca.jpg"
+    },
+    {
+        "id": 17,
+        "nombre": "Tinta para marcador",  
+        "descripcion": "Marca Trabi para pizarra por 30 cc y color verde.",
+        "precio": 1614,
+        "cantidad_disponible": 31,
+        "imagen": "https://i.ibb.co/QXhY3Bc/Tinta-para-marcador.jpg" 
+    },
+    {
+        "id": 18,
+        "nombre": "Libro para pintar", 
+        "descripcion": "Marca Megalibro de unicornios, animales y personajes de Disney.",
+        "precio": 1806,
+        "cantidad_disponible": 14,
+        "imagen": "https://i.ibb.co/bgnHrsj/Libro-para-pintar.png"
+    },
+    {
+        "id": 19,
+        "nombre": "Libro para colorear", 
+        "descripcion": "Pinta con Paw Patrol. Tiene 16 páginas.",
+        "precio": 782,
+        "cantidad_disponible": 0,
+        "imagen": "https://i.ibb.co/GTgnY75/Libro-para-colorear.png"
+    },
+    {
+        "id": 20,
+        "nombre": "Bolígrafo", 
+        "descripcion": "Marca BIC modelo fashion lima. Escribe hasta una longitud de 3 km.",
+        "precio": 256,
+        "cantidad_disponible": 26,
+        "imagen": "https://i.ibb.co/PMj6579/Boligrafo.png"
+    }
+]

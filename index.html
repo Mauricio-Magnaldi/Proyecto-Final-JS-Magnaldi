@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compra</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body class="body">
+    <header class="header">
+        <nav class="nav">
+            <ul class="ul">
+                <li class="li">
+                    <a class="a">Inicio</a>
+                </li>
+                <li class="li">
+                    <a class="a">¿Quiénes somos?</a>
+                </li>
+                <li class="li">
+                    <a class="a"></a>
+                </li>
+                <li class="li">
+                    <a class="a">F.A.Q.</a>
+                </li>
+                <li class="li">
+                    <a class="a">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <h1 id="h1" class="h1"></h1>
+        <h2 class="h2">Vista Usuario</h2>
+        <div class="divOverTabla">
+            <div class="divTabla">
+                <table id="tabla" class="tabla">
+                    <tr>
+                        <th>Imagen</th>
+                        <th>Id</th>
+                        <th>Nombre</th>
+                        <th>Precio</th>
+                        <th>Stock</th>
+                        <th>Descripción</th>
+                        <th>Producto</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+            <form id="actualizarPrecio" class="formulario">
+                <input class="borde" type="number" min= "1" max="100" title="Ingresa el porcentaje de incremento para todos los precios, limitado a 3 dígitos." id="porcentajePrecio" name="porcentajePrecio">
+                <input title="Actualiza el precio de todos los artículos" id="actualizarPrecio" class="boton" type="submit" name="actualizarPrecio" value="Actualizar Precio">
+            </form>
+        <h2 class="h2">Vista Cliente</h2>
+        <div class="divOverTarjeta">
+            <div id="divTarjetasMain"></div>
+        </div>
+        <h2 class="h2">Vista Carrito</h2>
+        <div class="divOverTabla">
+            <div class="divTabla">
+                <table id="ventaTabla" class="tabla">
+                    <tr>
+                        <th>Id</th>
+                        <th>Nombre</th>
+                        <th>Cantidad</th>
+                        <th>Precio</th>
+                        <th>Subtotal</th>
+                        <th>Día</th>  
+                    </tr>
+                </table>
+            </div>
+            <h2 class="h2">El importe total es: $<span id="total"></span><span>.-</span></h2>
+        </div>
+    </main>
+    <footer id="footer" class="footer"></footer>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script type="text/javascript" src="./js/main.js"></script> 
+</body>
+</html>

@@ -1,0 +1,229 @@
+*   {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        padding: 2px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+.body
+    {
+        background-color: rgb(176, 232, 206);
+    }
+
+.ul
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+.li
+    {   
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+.header
+    {
+        background-color: #4a538d5f;
+        height: 40px;
+        margin-bottom: 1px;
+        position: sticky;
+        top: 5px;
+        z-index: 10;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+.h1
+    {
+        text-align: center;
+        font-size: 3.5rem;
+        color: rgb(82, 0, 215);
+    }
+
+.h2
+    {
+        text-align: center;
+        font-size: 1.6rem;
+    }
+
+.main
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+   
+.formulario
+    {
+        width: 100%;
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgb(96, 151, 109);
+        border-radius: 5px;
+        color: white;
+    }
+
+.input
+    {
+        margin: 10px;
+        border-radius: 6px;
+        border: 0;   
+    }
+
+.divOverTabla
+    {
+        width: 95%;
+        height: 30vh;
+        overflow-y: auto;
+    }
+
+.divOverTarjeta
+    {
+        width: 95%;
+        height: 50vh;
+        overflow-y: auto;
+    }
+
+.divTabla
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+.tabla
+    {
+        width: 90%;
+        height: 10px;
+        overflow-y: auto;
+        border:5px solid;
+        border-collapse: collapse;
+        font-size: 1rem;
+        background-color:rgba(53, 103, 129, 0.363);
+    }
+
+.tabla textarea
+    {    
+        background-color:rgba(53, 103, 129, 0.363);
+        border: none;
+        outline: none;
+    }
+
+.tabla th, .tabla td
+    {   
+        border:1px solid;
+        padding: 10px;
+        align-content: center;
+    } 
+
+.imgTabla 
+    {
+        width: 40px;
+        height: 40px;
+        margin : 0 auto;
+        padding: 5px;
+        border-radius: 15px;
+    }
+
+#divTarjetasMain
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items:center;
+        flex-wrap: wrap;
+    }
+
+.tarjetaProducto
+    {
+        width: 200px;
+        height: 270px;
+        border: 1px solid;
+        background-color: white;
+        margin: 5px;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        border-radius: 10px;
+        font-size: 1rem;
+        text-align: center;
+        object-fit: cover;
+    }
+
+.tarjetaProducto img 
+    {
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+        margin : 0 auto;
+        padding: 5px;
+        border-radius: 15px;
+    }
+
+.tarjetaProducto button 
+    {
+        margin-bottom: 10px;
+    }
+
+.boton
+    {
+        width: 120px;
+        height: 30px;
+        margin: 5px;
+        border-radius: 5px;
+        background-color: rgb(55, 55, 107);
+        color: white;
+    }
+
+.borde
+    {
+        border-radius: 5px;
+    }
+
+.footer
+    {
+        height: 20px;
+        text-align: center;
+        font-size: 1rem;
+        margin: 10px;
+   }
+
+@media screen and (max-width: 920px) 
+    {
+        .main
+            {
+                width: 100%;
+            }
+
+        .formulario
+            {
+                width: 100%;
+                margin: 10px;
+                padding: 10px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            
+        .tabla  
+            {   
+                font-size: 0.7rem;
+            }
+    }
